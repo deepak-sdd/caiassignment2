@@ -1,6 +1,8 @@
 import streamlit as st
 import requests
 
+pip install -r requirements.txt
+
 API_URL = "https://your-deployed-flask-app.com/api/rag/chat"  # Replace with your actual deployed API URL
 
 st.title("CAI Assignment 2 - Group #75 Chatbot")
