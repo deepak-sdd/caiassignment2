@@ -1,7 +1,18 @@
 import streamlit as st
 import requests
-
-pip install -r requirements.txt
+import os
+os.environ["KERAS_BACKEND"] = "tensorflow"
+import keras
+import tensorflow as tf
+from keras import layers
+import matplotlib.pyplot as plt
+import numpy as np
+from keras.callbacks import Callback
+from keras.applications import InceptionV3
+from scipy.linalg import sqrtm
+from PIL import Image
+import tensorflow as tf
+from skimage.transform import resize
 
 API_URL = "https://your-deployed-flask-app.com/api/rag/chat"  # Replace with your actual deployed API URL
 
