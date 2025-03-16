@@ -3,7 +3,7 @@ import requests
 
 API_URL = "https://your-deployed-flask-app.com/api/rag/chat"  # Replace with your actual deployed API URL
 
-st.title("🤖 Chatbot")
+st.title("CAI Assignment 2 - Group #75 Chatbot")
 
 user_input = st.text_input("Type your message:")
 
